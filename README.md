@@ -18,15 +18,15 @@ python github_downloader.py
 
 ## 配置
 
-在脚本顶部修改以下变量：
+在脚本顶部修改以下变量（下表为示例值，对应 https://github.com/WildKernels/OnePlus_KernelSU_SUSFS/releases）：
 
-| 变量 | 说明 | 默认值 |
+| 变量 | 说明 | 示例值 |
 |---|---|---|
 | `REPO_OWNER` | 仓库拥有者 | WildKernels |
 | `REPO_NAME` | 仓库名称 | OnePlus_KernelSU_SUSFS |
 | `DOWNLOAD_LATEST` | True=下载最新 / False=指定版本 | True |
-| `TAG` | 指定版本标签 | v1.0 |
-| `TOKEN` | GitHub Token（可选，高频下载建议填写） | 空 |
+| `TAG` | 下载指定版本时填写的标签 | v1.0 |
+| `TOKEN` | GitHub Token（可选，高频下载建议填写） | 空（原值已清除，需自行填入） |
 | `MAX_RETRIES` | 下载失败重试次数 | 3 |
 
 ## 依赖
