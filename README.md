@@ -8,8 +8,9 @@ GitHub 的 Release 文件批量下载工具。
 ## 使用方式
 
 1. 在同目录下放入 `aria2c` 可执行文件
-2. 修改脚本顶部配置（仓库拥有者、仓库名等）
-3. 运行脚本
+2. 安装依赖：`pip install -r requirements.txt`
+3. 修改脚本顶部配置（仓库拥有者、仓库名等）
+4. 运行脚本
 
 ```bash
 python github_downloader.py
@@ -32,3 +33,4 @@ python github_downloader.py
 
 - Python 3
 - aria2c
+- requests（`pip install -r requirements.txt`）
