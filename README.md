@@ -2,10 +2,16 @@
 
 GitHub 的 Release 文件批量下载工具。
 
-## 用法
+支持批量下载一个项目的最新 Release 或指定版本的 Release 中的全部文件。
+下载失败的文件会在最后进行自动重试，重试次数可自定义。
+
+## 使用方式
+
+1. 在同目录下放入 `aria2c` 可执行文件
+2. 修改脚本顶部配置（仓库拥有者、仓库名等）
+3. 运行脚本
 
 ```bash
-pip install requests
 python github_downloader.py
 ```
 
@@ -25,4 +31,4 @@ python github_downloader.py
 ## 依赖
 
 - Python 3
-- aria2c（推荐）或 requests
+- aria2c
