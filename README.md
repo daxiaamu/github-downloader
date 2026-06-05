@@ -1,12 +1,12 @@
-# OnePlus KernelSU/SUSFS Release Downloader
+# GitHub Release Downloader
 
-一键下载 WildKernels 发布的一加内核 Release 文件。
+GitHub 的 Release 文件批量下载工具。
 
 ## 用法
 
 ```bash
 pip install requests
-python oneplus_ksu_dl.py
+python github_downloader.py
 ```
 
 ## 配置
